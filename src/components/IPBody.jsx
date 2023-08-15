@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import styles from './IPBody.module.css'
 import IPInput from './IpInput'
 import Map from './Map'
-import IpInfo from './IpInfo'
+import IPInfo from './IpInfo'
 import Loader from './Loader'
 
 
@@ -80,7 +80,7 @@ export default function IPBody(){
              
 
              <div className={`${styles.mapContainer} -mt-16  flex-column `}  >
-                {loading ? <Loader /> : <IpInfo loc={loc} info={info}  />}
+                {loading ? <Loader /> : <IPInfo loc={loc} info={info}  />}
                 <Map loc={loc}/>
             </div>
 
