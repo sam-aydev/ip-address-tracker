@@ -1,4 +1,4 @@
-export default function({loc, info}){
+export default function IPInfo({loc, info}){
     return(
         <div className='space-y-4  shadow-xl mx-auto -mt-24 overflow-visible sm:w-3/4 sm:flex sm:justify-center sm:items-center sm:px-4 sm:space-x-6 md:space-x-14 md:mt-2 pt-4 py-8 bg-white w-1/2 rounded-xl'>
                             <div  className='sm:text-left'>
