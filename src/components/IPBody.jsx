@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import styles from './IPBody.module.css'
 import IPInput from './IpInput'
 import Map from './Map'
-import IPInfo from './IpInfo'
+import IPInfo from './IPInfo'
 import Loader from './Loader'
 
 
